@@ -1,6 +1,6 @@
- (12/10/1999 Cherezov A.)
+ ( 12/10/1999 Cherezov A.)
 
-(A simple expansion of the SP-Fort operations on dynamic
+( A simple expansion of the SP-Fort operations on dynamic
   lines of arbitrary length. These procedures are made in style.
   Perl or php but the syntax and other details are made more
   corresponding to the Fort style, rather than Perl.
