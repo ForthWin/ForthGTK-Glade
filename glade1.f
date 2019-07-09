@@ -46,7 +46,7 @@ REQUIRE STR@         ~ac/lib/str5.f
 \   fsock CloseSocket THROW
 \ ;
 : fclose ( socketline -- )
-   DUP fsock CloseSocket THROW  \ лучше DROP
+   DUP fsock CloseSocket THROW  \ DROP
   FREE THROW
 ;
 : fputs ( str socketline -- )
@@ -103,7 +103,7 @@ create win2  20 allot
 \ 1 ------------------------------------------------------------------
 
 \ 1  get the   handle of the GTK window   store into  WD  variable   
-                                          \   glade_xml_get_widget(xml, "app1");
+                                        
 " glade_xml_signal_autoconnect {$XML} "  >gtk .GTK$ 
 \  2 ------------------------------------------------------------------
 
